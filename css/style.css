@@ -31,8 +31,9 @@ body {
 }
 
 .logo {
-  height: 40px;
+  height: 60px; /* ⬅️ increased from 40px to 60px */
   width: auto;
+  object-fit: contain;
 }
 
 .title {
