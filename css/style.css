@@ -30,11 +30,17 @@ body {
   color: white;
 }
 
+.logo-wrapper {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px; /* Adjust curve here */
+  overflow: hidden;
+}
+
 .logo {
-  height: 60px !important; /* ⬅️ increased from 40px to 60px */
-  width: auto !important;
-  object-fit: contain;
-  border-radius: 8px !important;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .title {
