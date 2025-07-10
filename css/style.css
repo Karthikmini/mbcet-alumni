@@ -33,7 +33,7 @@ body {
 .logo {
   height: 60px !important; /* ⬅️ increased from 40px to 60px */
   width: auto !important;
-  border-radius: 10%;
+  border-radius: 10% !important;
   object-fit: contain;
 }
 
