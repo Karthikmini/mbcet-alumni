@@ -158,15 +158,16 @@ footer {
 .footer-container {
   max-width: 1200px;
   margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; /* 👈 Ensures even spacing between columns */
-  padding: 0 2em; /* 👈 Optional horizontal padding to prevent edge-hugging */
-  gap: 2em;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr; /* More width for contact column */
+  gap: 4em; /* Adjust spacing between columns */
+  padding: 0 3em;
 }
 
 .footer-col {
-  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
 }
 
 .footer-col h4 {
