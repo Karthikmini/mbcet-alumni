@@ -183,7 +183,7 @@ footer {
 }
 .social-icons {
   display: flex;
-  gap: 1em;
+  gap: 3em;
   margin-bottom: 1em;
 }
 .social-icons img {
