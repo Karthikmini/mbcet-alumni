@@ -210,6 +210,10 @@ footer {
   transform: scale(1.15);
 }
 
+.site-footer .footer-col.contact {
+  text-align: left;
+}
+
 .footer-bottom {
   background: #092740;
   text-align: center;
