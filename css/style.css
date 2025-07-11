@@ -223,6 +223,10 @@ footer {
   margin: 0.3em 0;
 }
 
+.address-block p {
+  margin: 0.3em 0;
+}
+
 /* Footer Bottom */
 .footer-bottom {
   background: #092740;
