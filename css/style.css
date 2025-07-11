@@ -156,12 +156,10 @@ footer {
 }
 
 .footer-container {
-  max-width: 1200px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr; /* More width for contact column */
-  gap: 4em; /* Adjust spacing between columns */
-  padding: 0 3em;
+ display: grid !important;
+  grid-template-columns: 1.5fr 1fr 1fr !important;
+  gap: 4em !important;
+  padding: 0 3em !important;
 }
 
 .footer-col {
