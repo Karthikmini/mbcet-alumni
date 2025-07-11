@@ -156,10 +156,12 @@ footer {
 }
 
 .footer-container {
- display: grid !important;
-  grid-template-columns: 1.5fr 1fr 1fr !important;
-  gap: 4em !important;
-  padding: 0 3em !important;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 4em;
+  padding: 2em 3em;
 }
 
 .footer-col {
@@ -213,6 +215,10 @@ footer {
 
 .site-footer .footer-col.contact {
   text-align: left;
+}
+
+.footer-col.contact p {
+  margin: 0.3em 0;
 }
 
 .footer-bottom {
