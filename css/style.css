@@ -147,21 +147,21 @@ footer {
   border-radius: 4px;
 }
 
-/* Updated Footer Layout */
+/* === Footer Styles: Updated Layout & Spacing === */
 .site-footer {
   background: #0a3d62;
   color: white;
   padding-top: 2em;
-  text-align: left; /* ← Changed from center to left */
+  text-align: left;
 }
 
 .footer-container {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr;
-  gap: 4em;
-  padding: 2em 3em;
+  grid-template-columns: 1.7fr 1fr 1fr;
+  gap: 6em; /* more space between columns */
+  padding: 2em 4em; /* adds spacing from sides */
 }
 
 .footer-col {
@@ -192,14 +192,15 @@ footer {
   text-decoration: underline;
 }
 
+/* Social Icons */
 .social-icons {
   display: flex;
-  justify-content: flex-start; /* 👈 Aligns items to the left */
+  justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 2em; /* 👈 Optional: even spacing */
+  gap: 2em;
   margin-bottom: 1em;
-  padding: 0; /* 👈 Removed side padding */
+  padding: 0;
 }
 
 .social-icons img {
@@ -213,6 +214,7 @@ footer {
   transform: scale(1.15);
 }
 
+/* Contact Info Alignment */
 .site-footer .footer-col.contact {
   text-align: left;
 }
@@ -221,6 +223,7 @@ footer {
   margin: 0.3em 0;
 }
 
+/* Footer Bottom */
 .footer-bottom {
   background: #092740;
   text-align: center;
