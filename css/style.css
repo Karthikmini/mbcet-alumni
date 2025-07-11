@@ -183,14 +183,24 @@ footer {
 }
 .social-icons {
   display: flex;
-  gap: 1.5em;
+  justify-content: space-around; /* or try space-between for more edge-to-edge layout */
+  align-items: center;
+  flex-wrap: wrap;
   margin-bottom: 1em;
-  justify-content: center;
+  padding: 0 2em; /* optional horizontal padding */
 }
+
 .social-icons img {
-  height: 24px;
-  width: auto;
+  width: 36px;
+  height: 36px;
+  transition: transform 0.3s ease;
+  border-radius: 6px;
 }
+
+.social-icons img:hover {
+  transform: scale(1.15);
+}
+
 .footer-bottom {
   background: #092740;
   text-align: center;
