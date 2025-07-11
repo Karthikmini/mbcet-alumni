@@ -160,8 +160,9 @@ footer {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 2em 4em;
-  padding: 0 1em;
+  justify-content: space-between; /* 👈 Ensures even spacing between columns */
+  padding: 0 2em; /* 👈 Optional horizontal padding to prevent edge-hugging */
+  gap: 2em;
 }
 
 .footer-col {
@@ -170,7 +171,6 @@ footer {
 
 .footer-col h4 {
   margin-bottom: 0.5em;
-  text-align: center;
 }
 
 .footer-col ul {
