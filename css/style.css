@@ -33,7 +33,7 @@ body {
 .logo-wrapper {
   height: 60px;
   width: 60px;
-  border-radius: 10px; /* Adjust curve here */
+  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -68,7 +68,6 @@ body {
 .nav a:hover {
   text-decoration: underline;
 }
-
 
 /* Hero Image Section */
 .hero img,
@@ -148,11 +147,14 @@ footer {
   border-radius: 4px;
 }
 
+/* Updated Footer Layout */
 .site-footer {
   background: #0a3d62;
   color: white;
   padding-top: 2em;
+  text-align: left; /* ← Changed from center to left */
 }
+
 .footer-container {
   max-width: 1200px;
   margin: auto;
@@ -161,33 +163,40 @@ footer {
   gap: 2em 4em;
   padding: 0 1em;
 }
+
 .footer-col {
   flex: 1 1 200px;
 }
+
 .footer-col h4 {
   margin-bottom: 0.5em;
 }
+
 .footer-col ul {
   list-style: none;
   padding: 0;
 }
+
 .footer-col ul li {
   margin-bottom: 0.5em;
 }
+
 .footer-col a {
   color: #fff;
   text-decoration: none;
 }
+
 .footer-col a:hover {
   text-decoration: underline;
 }
+
 .social-icons {
   display: flex;
-  justify-content: space-around; /* or try space-between for more edge-to-edge layout */
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 1em;
-  padding: 0 2em; /* optional horizontal padding */
+  padding: 0 2em;
 }
 
 .social-icons img {
@@ -207,7 +216,9 @@ footer {
   padding: 1em 0;
   margin-top: 2em;
 }
+
 .footer-bottom p {
   margin: 0;
   font-size: 0.9rem;
 }
+
