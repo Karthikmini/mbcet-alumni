@@ -69,6 +69,19 @@ body {
   text-decoration: underline;
 }
 
+.hero-banner {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 2em; /* optional */
+}
+
+.hero-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
 /* Hero Image Section */
 .hero img,
 .event-hero img,
